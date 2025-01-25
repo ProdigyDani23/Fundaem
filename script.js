@@ -18,3 +18,9 @@ const sombLoco = "Sombrero loco";
 document.getElementById("tituloSombLoco").textContent=sombLoco;
 const descripcionSombLoco = "El 17 de diciembre se celebró la competencia del Sombrero Loco en el Parque Mareigua Paramo, reuniendo a participantes de todas las edades para mostrar sombreros originales y creativos. Los concursantes presentaron diseños extravagantes, que fueron evaluados por su creatividad, originalidad y técnica. Todos recibieron premios por su esfuerzo. Además, hubo actividades para toda la familia, como bailoterapia, música en vivo y juegos. Los organizadores agradecieron la participación y anunciaron planes para futuras ediciones, manteniendo viva la tradición de creatividad y diversión.";
 document.getElementById("descripcionSombLoco").textContent=descripcionSombLoco;
+
+//// segundo evento
+const maCometas = "Maratón de Cometas: Corre contra el viento";
+document.getElementById("titulomaCometas").textContent=maCometas;
+const descripcionmatCometas = "El domingo 1 de diciembre, la cancha del barrio Doce de Octubre se llenó de color y alegría con el 1er. Maratón de Cometas. Familias y amigos disfrutaron de talleres, concursos y exhibiciones, mientras más de 40 cometas surcaban el cielo al mismo tiempo, ofreciendo un espectáculo inolvidable.El evento, organizado por la FUNDACIÓN DEPORTIVA ELINA MORALES, fomentó la convivencia, la creatividad y el trabajo en equipo. Gracias al apoyo de la comunidad, ¡este maratón será una tradición anual!Un día lleno de magia que dejó a todos esperando con ansias la próxima edición.";
+document.getElementById("descripcionCometas").textContent=descripcionmatCometas;
