@@ -102,14 +102,38 @@ section h2 {
 /* Videos */
 .video-container {
     display: flex;
-    justify-content: center;
-    margin: 2rem 0;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si es necesario */
+    margin: 2rem 0; /* Espaciado superior e inferior */
 }
 
-video {
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+.video-container video {
+    width: 90%; /* Ocupa el 90% del contenedor */
+    max-width: 900px; /* Tamaño máximo más grande */
+    height: 500px; /* Aumenta la altura */
+    object-fit: cover; /* Mantiene el aspecto sin deformar */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Efecto de sombra */
 }
+
+.foto-container {
+    display: flex;
+    justify-content: center; /* Centra la imagen */
+    align-items: center;
+    margin: 2rem 0; /* Espaciado superior e inferior */
+}
+
+.foto-container img {
+    width: 90%; /* Ajusta el tamaño */
+    max-width: 900px; /* Tamaño máximo */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra */
+    object-fit: cover; /* Asegura buen ajuste */
+}
+
+
+
 
 /* Galería */
 .gallery {

@@ -24,3 +24,10 @@ const maCometas = "Maratón de Cometas: Corre contra el viento";
 document.getElementById("titulomaCometas").textContent=maCometas;
 const descripcionmatCometas = "El domingo 1 de diciembre, la cancha del barrio Doce de Octubre se llenó de color y alegría con el 1er. Maratón de Cometas. Familias y amigos disfrutaron de talleres, concursos y exhibiciones, mientras más de 40 cometas surcaban el cielo al mismo tiempo, ofreciendo un espectáculo inolvidable.El evento, organizado por la FUNDACIÓN DEPORTIVA ELINA MORALES, fomentó la convivencia, la creatividad y el trabajo en equipo. Gracias al apoyo de la comunidad, ¡este maratón será una tradición anual!Un día lleno de magia que dejó a todos esperando con ansias la próxima edición.";
 document.getElementById("descripcionCometas").textContent=descripcionmatCometas;
+
+// tercer evento
+const visita ="Visita Educativa a Aseo del Norte: Fomentando el Interés por la Sostenibilidad";
+document.getElementById("tituloVisita").textContent=visita;
+const descripcionVisita ="Estudiantes de la Institución Prudencia Daza participaron en una visita a Aseo del Norte en Valledupar, organizada por FUNDAEM dentro del programa Visión de mi Futuro. Durante la jornada, aprendieron sobre higiene, manejo de residuos y prácticas sostenibles a través de un recorrido por las instalaciones, charlas educativas con profesionales del sector, demostraciones prácticas de reciclaje y una sesión de preguntas y respuestas. La experiencia les permitió comprender la importancia de la responsabilidad ambiental, valorar el trabajo en este ámbito y considerar posibles carreras relacionadas con la sostenibilidad y el cuidado del medio ambiente.";
+document.getElementById("descripcionVisita").textContent=descripcionVisita;
+
