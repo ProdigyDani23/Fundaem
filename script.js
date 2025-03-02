@@ -8,7 +8,7 @@ const aboutVision =" ser una fundación reconocida por la comunidad, institucion
 document.getElementById("about-vision").textContent=aboutVision;
 
 
-const descripcion =" Conoce nuestras iniciativas: desde programas educativos hasta proyectos de sostenibilidad ambiental.";
+const descripcion ="Únete a nuestro equipo de voluntarios y ayuda a transformar vidas a través del deporte.";
 document.getElementById("descripcion").textContent=descripcion;
 
 
@@ -30,4 +30,5 @@ const visita ="Visita Educativa a Aseo del Norte: Fomentando el Interés por la 
 document.getElementById("tituloVisita").textContent=visita;
 const descripcionVisita ="Estudiantes de la Institución Prudencia Daza participaron en una visita a Aseo del Norte en Valledupar, organizada por FUNDAEM dentro del programa Visión de mi Futuro. Durante la jornada, aprendieron sobre higiene, manejo de residuos y prácticas sostenibles a través de un recorrido por las instalaciones, charlas educativas con profesionales del sector, demostraciones prácticas de reciclaje y una sesión de preguntas y respuestas. La experiencia les permitió comprender la importancia de la responsabilidad ambiental, valorar el trabajo en este ámbito y considerar posibles carreras relacionadas con la sostenibilidad y el cuidado del medio ambiente.";
 document.getElementById("descripcionVisita").textContent=descripcionVisita;
+
 
